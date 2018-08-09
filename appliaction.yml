@@ -1,0 +1,14 @@
+﻿spring: 
+    progiles: 
+        active: 
+        -dev
+---        
+spring: 
+    progiles: dev   #开发环境
+    appliction: 
+        name: microservicecloud-config-hu-dev
+---
+spring: 
+    progiles: test  #测试环境
+    appliction: 
+        name: microservicecloud-config-hu-test
